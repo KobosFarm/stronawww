@@ -1,0 +1,123 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page58656379.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule ^(.*)$ https://kobos\.info/$1 [R=301,L]
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =https
+RewriteCond %{HTTP_HOST} ^www\.kobos.info [NC]
+RewriteRule ^(.*)$ https://kobos\.info/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^en$ page60286231.html [NC]
+RewriteRule ^en/$ page60286231.html [NC]
+
+RewriteRule ^ru$ page60286649.html [NC]
+RewriteRule ^ru/$ page60286649.html [NC]
+
+RewriteRule ^de$ page61254447.html [NC]
+RewriteRule ^de/$ page61254447.html [NC]
+
+RewriteRule ^fr$ page61254989.html [NC]
+RewriteRule ^fr/$ page61254989.html [NC]
+
+RewriteRule ^es$ page61255189.html [NC]
+RewriteRule ^es/$ page61255189.html [NC]
+
+RewriteRule ^it$ page61255247.html [NC]
+RewriteRule ^it/$ page61255247.html [NC]
+
+RewriteRule ^pt$ page61255331.html [NC]
+RewriteRule ^pt/$ page61255331.html [NC]
+
+RewriteRule ^uk$ page61255449.html [NC]
+RewriteRule ^uk/$ page61255449.html [NC]
+
+RewriteRule ^be$ page61255491.html [NC]
+RewriteRule ^be/$ page61255491.html [NC]
+
+RewriteRule ^sr$ page61255583.html [NC]
+RewriteRule ^sr/$ page61255583.html [NC]
+
+RewriteRule ^hr$ page61255611.html [NC]
+RewriteRule ^hr/$ page61255611.html [NC]
+
+RewriteRule ^sv$ page61255653.html [NC]
+RewriteRule ^sv/$ page61255653.html [NC]
+
+RewriteRule ^no$ page61255717.html [NC]
+RewriteRule ^no/$ page61255717.html [NC]
+
+RewriteRule ^da$ page61255783.html [NC]
+RewriteRule ^da/$ page61255783.html [NC]
+
+RewriteRule ^nl$ page61255819.html [NC]
+RewriteRule ^nl/$ page61255819.html [NC]
+
+RewriteRule ^yi$ page61255949.html [NC]
+RewriteRule ^yi/$ page61255949.html [NC]
+
+RewriteRule ^cs$ page61255973.html [NC]
+RewriteRule ^cs/$ page61255973.html [NC]
+
+RewriteRule ^sk$ page61256031.html [NC]
+RewriteRule ^sk/$ page61256031.html [NC]
+
+RewriteRule ^sl$ page61256179.html [NC]
+RewriteRule ^sl/$ page61256179.html [NC]
+
+RewriteRule ^bg$ page61256261.html [NC]
+RewriteRule ^bg/$ page61256261.html [NC]
+
+RewriteRule ^mk$ page61256317.html [NC]
+RewriteRule ^mk/$ page61256317.html [NC]
+
+RewriteRule ^ca$ page61256497.html [NC]
+RewriteRule ^ca/$ page61256497.html [NC]
+
+RewriteRule ^ro$ page61256533.html [NC]
+RewriteRule ^ro/$ page61256533.html [NC]
+
+RewriteRule ^lv$ page61256561.html [NC]
+RewriteRule ^lv/$ page61256561.html [NC]
+
+RewriteRule ^lt$ page61256583.html [NC]
+RewriteRule ^lt/$ page61256583.html [NC]
+
+RewriteRule ^el$ page61256613.html [NC]
+RewriteRule ^el/$ page61256613.html [NC]
+
+RewriteRule ^sq$ page61256647.html [NC]
+RewriteRule ^sq/$ page61256647.html [NC]
+
+RewriteRule ^fi$ page61256665.html [NC]
+RewriteRule ^fi/$ page61256665.html [NC]
+
+RewriteRule ^et$ page61256681.html [NC]
+RewriteRule ^et/$ page61256681.html [NC]
+
+RewriteRule ^hu$ page61256703.html [NC]
+RewriteRule ^hu/$ page61256703.html [NC]
+
+RewriteRule ^tr$ page61256729.html [NC]
+RewriteRule ^tr/$ page61256729.html [NC]
+
+RewriteRule ^ar$ page61256751.html [NC]
+RewriteRule ^ar/$ page61256751.html [NC]
+
+RewriteRule ^zh$ page61256773.html [NC]
+RewriteRule ^zh/$ page61256773.html [NC]
+
+RewriteRule ^ja$ page61256873.html [NC]
+RewriteRule ^ja/$ page61256873.html [NC]
+
+RewriteRule ^hi$ page61256901.html [NC]
+RewriteRule ^hi/$ page61256901.html [NC]
+
+
